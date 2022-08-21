@@ -132,7 +132,7 @@ const TimeFunc = () =>{
 
 ReactDOM.render(
   <React.Fragment>
-    <h1 className='headR'>REACT</h1>
+    <h1 className='headR'>REACT WISHING PEOPLE</h1>
     {/* <h1 className='headOne' style={{ color: 'rgba(165, 42, 42, 0.705)', textAlign: 'center', margin: '100px 0' }}>'WALLPAPERS HD'</h1> */}
     <h1 className='headOne' style={heading}>HELLO AKASH 😊 {TimeFunc()}</h1>
     {/* <h1 className='headOne' style={heading}>'HELLO AKASH 😊 <span style={after}>GOOD MORNING✨</span>'</h1> */}
@@ -144,4 +144,4 @@ ReactDOM.render(
     </div>
   </React.Fragment>,
   document.getElementById('root')
-)
+);
